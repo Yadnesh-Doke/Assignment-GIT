@@ -5,6 +5,11 @@ public class Cal{
 		return a+b;
 	}
 
+
+        public int mul(int a,int b)
+	{
+		return a*b;
+        }
 	public int sub(int a,int b)
 	{
 		if(a-b < 0)
@@ -13,4 +18,5 @@ public class Cal{
 		    }
 		    return a-b;
 	}
+
 }
